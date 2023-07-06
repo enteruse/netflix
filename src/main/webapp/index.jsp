@@ -28,3 +28,29 @@
   <script src="script.js"></script>
 </body>
 </html>
+/* Styles for the streaming website */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Add more styles as needed */
