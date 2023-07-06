@@ -1,24 +1,30 @@
-netflixintro{
-    display: block;
-	position: relative;
-	width: 300px;
-	height: 300px;
-	animation-name: zoom-in;
-	animation-delay: .5s;
-	animation-duration: 3.5s;;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	background-size: 4000px;
-	&[letter="N"]{
-	  transform-origin: 30% center;
-	  .helper-1{
-	      width: 19.5%;
-		  height: 100%;
-		  left: 22.4%;
-		  top: 0;
-		  transform: rotate(180deg);
-		  animation-name: fading-lumieres-box;
-		}
-	
-	} 
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Streaming Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Streaming Website</h1>
+  </header>
+  
+  <main>
+    <section id="featured">
+      <h2>Featured Content</h2>
+      <!-- Featured content goes here -->
+    </section>
+    
+    <section id="popular">
+      <h2>Popular Shows</h2>
+      <!-- Popular shows go here -->
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Streaming Website. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
