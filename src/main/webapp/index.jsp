@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Streaming Website</title>
+  <title>My Sample Web Page</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Streaming Website</h1>
+    <h1>Welcome to My Sample Web Page</h1>
   </header>
   
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
   <main>
-    <section id="featured">
-      <h2>Featured Content</h2>
-      <!-- Featured content goes here -->
+    <section>
+      <h2>About</h2>
+      <p>This is a sample web page created to demonstrate HTML structure and basic styling.</p>
     </section>
     
-    <section id="popular">
-      <h2>Popular Shows</h2>
-      <!-- Popular shows go here -->
+    <section>
+      <h2>Services</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>Graphic Design</li>
+        <li>Content Writing</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Contact</h2>
+      <p>You can reach us at <a href="mailto:info@example.com">info@example.com</a> or by phone at <a href="tel:+1234567890">+1 234-567-890</a>.</p>
     </section>
   </main>
   
   <footer>
-    <p>&copy; 2023 Streaming Website. All rights reserved.</p>
+    <p>&copy; 2023 My Sample Web Page. All rights reserved.</p>
   </footer>
-  
-  <script src="script.js"></script>
 </body>
 </html>
-/* Styles for the streaming website */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header, footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-h1, h2 {
-  color: #333;
-}
-
-/* Add more styles as needed */
